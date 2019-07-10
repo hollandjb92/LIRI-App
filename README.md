@@ -8,7 +8,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-<p>You will need <a href="https://nodejs.org/en/">Node.JS</a> and  <a href="https://www.npmjs.com/">NPM</a>  installed on your system.</p>
+<p>You will need <a href="https://nodejs.org/en/">Node.js</a> and  <a href="https://www.npmjs.com/">NPM</a>  installed on your system.</p>
 
 ### Installing
 
