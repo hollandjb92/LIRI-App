@@ -36,14 +36,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 </ul>
 </li>
 <li>
-<pre><code> `node liri spotify-this-song [song]`
+<pre><code> "node liri spotify-this-song [song]"
 </code></pre>
 <ul>
 <li>*Write what this command does here later*</li>
 </ul>
 </li>
 <li>
-<pre><code> `node liri.js movie-this [movie]`
+<pre><code> "node liri.js movie-this [movie]"
 </code></pre>
 <ul>
 <li>
