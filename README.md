@@ -67,7 +67,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Built With
 <ul>
-<li><a href="https://nodejs.org/en/">Node.JS</a></li>
+<li><a href="https://nodejs.org/en/">Node.js</a></li>
 <li><a href="https://www.npmjs.com/package/node-spotify-api">Spotify</a></li>
 <li><a href="https://www.npmjs.com/package/omdb" rel="nofollow">OMDb</a></li>
     <li><a href="https://www.artists.bandsintown.com/bandsintown-api" rel="nofollow">Bands in Town</a></li>
