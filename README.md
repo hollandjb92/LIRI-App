@@ -38,7 +38,12 @@ Follow these instructions to get a copy of the project up and running on your lo
          <li>Venue location</li>
          <li>Date of the Event</li>
     </ul>
+      
+      
 </ul>  
+
+
+
 </li>
 <li>
 <pre><code> "node liri spotify-this-song [song name here]"
@@ -51,7 +56,12 @@ Follow these instructions to get a copy of the project up and running on your lo
          <li>A preview link of the song from Spotify</li>
          <li>The album the song is from</li>
     </ul>
+      
+      
 </ul>
+
+
+
 </li>
 <li>
 <pre><code> "node liri.js movie-this [movie name here]"
@@ -67,8 +77,11 @@ Follow these instructions to get a copy of the project up and running on your lo
            <li>Language of the movie</li>
            <li>Plot of the movie</li>
            <li>Actors in the movie</li>
-    </ul>
+      </ul>
 </ul>
+      
+      
+      
 </li>
 <li>
 <pre><code> "node liri.js do-what-it-says"
