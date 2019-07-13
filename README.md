@@ -57,8 +57,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri.js movie-this [movie name here]"
 </code></pre>
 <ul>
-
-<li>This will output the following information to your terminal/bash window:<li>
+<li>This will output the following information to your terminal/bash window</li>
        <ul>
         <li>Title of the movie</li>
          <li>Year the movie came out</li>
