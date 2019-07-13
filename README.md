@@ -32,15 +32,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri.js concert-this [artist/band name here]"
 </code></pre>
 <ul>
-<li>This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:</li>
+<li>This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal/bash window:</li>
       <ul>
         <li>Name of the venue</li>
          <li>Venue location</li>
          <li>Date of the Event</li>
-    </ul>
-      
-      
+      </ul>    
 </ul>  
+
+<br/>
 
 
 
@@ -49,7 +49,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri spotify-this-song [song name here]"
 </code></pre>
 <ul>
-<li>This will show the following information about the song in your terminal/bash window</li>
+<li>This will show the following information about the song in your terminal/bash window:</li>
      <ul>
         <li>Artist(s)</li>
          <li>Song Name</li>
@@ -59,7 +59,7 @@ Follow these instructions to get a copy of the project up and running on your lo
       
       
 </ul>
-
+<br/>
 
 
 </li>
@@ -67,7 +67,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri.js movie-this [movie name here]"
 </code></pre>
 <ul>
-<li>This will output the following information to your terminal/bash window</li>
+<li>This will output the following information to your terminal/bash window:</li>
        <ul>
         <li>Title of the movie</li>
          <li>Year the movie came out</li>
@@ -79,7 +79,7 @@ Follow these instructions to get a copy of the project up and running on your lo
            <li>Actors in the movie</li>
       </ul>
 </ul>
-      
+      <br/>
       
       
 </li>
@@ -89,6 +89,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <ul>
 <li>Runs a command that you have run in the past</li>
 </ul>
+      <br/>
 </li>
 </ol>
 
