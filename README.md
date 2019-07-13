@@ -57,7 +57,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri.js movie-this [movie name here]"
 </code></pre>
 <ul>
-<li>
+
 <li>This will output the following information to your terminal/bash window:<li>
        <ul>
         <li>Title of the movie</li>
@@ -69,7 +69,6 @@ Follow these instructions to get a copy of the project up and running on your lo
            <li>Plot of the movie</li>
            <li>Actors in the movie</li>
     </ul>
-</li>
 </ul>
 </li>
 <li>
