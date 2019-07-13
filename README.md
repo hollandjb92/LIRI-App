@@ -31,7 +31,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li>
 <pre><code> "node liri.js concert-this [artist/band name here]"
 </code></pre>
-      <br/>
+   
 <ul>
 <li>This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal/bash window:</li>
       <ul>
@@ -49,7 +49,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li>
 <pre><code> "node liri spotify-this-song [song name here]"
 </code></pre>
-       <br/>
+       
 <ul>
 <li>This will show the following information about the song in your terminal/bash window:</li>
      <ul>
@@ -68,7 +68,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li>
 <pre><code> "node liri.js movie-this [movie name here]"
 </code></pre>
-       <br/>
+       
 <ul>
 <li>This will output the following information to your terminal/bash window:</li>
        <ul>
@@ -89,7 +89,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li>
 <pre><code> "node liri.js do-what-it-says"
 </code></pre>
-       <br/>
+       
 <ul>
 <li>Runs a command that you have run in the past</li>
 </ul>
