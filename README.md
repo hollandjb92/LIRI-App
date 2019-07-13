@@ -29,25 +29,46 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 <ol>
 <li>
-<pre><code> "node liri.js concert-this"
+<pre><code> "node liri.js concert-this [artist/band name here]"
 </code></pre>
 <ul>
-<li>*Write what this command does here later*</li>
+<li>This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:</li>
+      <ul>
+        <li>Name of the venue</li>
+         <li>Venue location</li>
+         <li>Date of the Event</li>
+    </ul>
+</ul>  
+</li>
+<li>
+<pre><code> "node liri spotify-this-song [song name here]"
+</code></pre>
+<ul>
+<li>This will show the following information about the song in your terminal/bash window</li>
+     <ul>
+        <li>Artist(s)</li>
+         <li>Song Name</li>
+         <li>A preview link of the song from Spotify</li>
+         <li>The album the song is from</li>
+    </ul>
 </ul>
 </li>
 <li>
-<pre><code> "node liri spotify-this-song [song]"
-</code></pre>
-<ul>
-<li>*Write what this command does here later*</li>
-</ul>
-</li>
-<li>
-<pre><code> "node liri.js movie-this [movie]"
+<pre><code> "node liri.js movie-this [movie name here]"
 </code></pre>
 <ul>
 <li>
-*Write what this command does here later*
+<li>This will output the following information to your terminal/bash window:<li>
+       <ul>
+        <li>Title of the movie</li>
+         <li>Year the movie came out</li>
+         <li>IMDB rating of the movie</li>
+         <li>Rotten Tomatoes rating of the movie</li>
+           <li>Country where the movie was produced</li>
+           <li>Language of the movie</li>
+           <li>Plot of the movie</li>
+           <li>Actors in the movie</li>
+    </ul>
 </li>
 </ul>
 </li>
@@ -55,7 +76,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <pre><code> "node liri.js do-what-it-says"
 </code></pre>
 <ul>
-<li>*Write what this command does here later*</li>
+<li>Runs a command that you have run in the past</li>
 </ul>
 </li>
 </ol>
@@ -72,5 +93,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li><a href="https://www.npmjs.com/package/omdb" rel="nofollow">OMDb</a></li>
     <li><a href="https://www.artists.bandsintown.com/bandsintown-api" rel="nofollow">Bands in Town</a></li>
 <li><a href="https://www.npmjs.com/package/axios" rel="nofollow">Axios</a></li>
+     <li><a href="https://www.npmjs.com/package/moment" rel="nofollow">Moment.js</a></li>
   <li><a href="https://www.npmjs.com/package/dotenv" rel="nofollow">DotEnv</a></li>
 </ul>
