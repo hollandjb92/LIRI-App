@@ -17,32 +17,50 @@ let userInput = args.slice(3).join(" ");
 // console.log(userInput);
 
 //switch statement to determine which function to fun
-switch (method) {
-  case "concert-this":
-    concertThis(userInput);
-    break;
-  case "spotify-this-song":
-    spotifyThis(userInput);
-    break;
-  case "movie-this":
-    movieThis(userInput);
-    break;
-  case "do-what-it-says":
+// switch (method) {
+//   case "concert-this":
+//     concertThis(userInput);
+//     break;
+//   case "spotify-this-song":
+//     spotifyThis(userInput);
+//     break;
+//   case "movie-this":
+//     movieThis(userInput);
+//     break;
+//   case "do-what-it-says":
+//     doThis();
+//     break;
+//   default:
+//     console.log("Something went wrong. Please check your input and try again".red);
+// }
+
+//ALTERNATE WAY TO DO IT THAT I KIND OF LIKE MORE ACTUALLY:
+
+let choice = {
+  "concert-this": _ => {
+    !userInput ? console.log("Please provide an artist".red) : concertThis(userInput);
+  },
+  "spotify-this-song": _ => {
+    !userInput ? spotifyThis("Nobody Mitski") : spotifyThis(userInput);
+  },
+  "movie-this": _ => {
+    !userInput ? movieThis("Lady Bird") : movieThis(userInput);
+  },
+  "do-what-it-says": _ => {
     doThis();
-    break;
-  default:
-    console.log("Something went wrong. Please check your input and try again".red);
+  }
 }
 
+choice[method]();
 
 
 //BANDS IN TOWN//
 function concertThis(userInput) {
 
   //default artist if no input is provided
-  if (!userInput) {
-    return console.log("Please provided an artist".red);
-  }
+  // if (!userInput) {
+  //   return console.log("Please provided an artist".red);
+  // }
   //axios call
   axios.get("https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp").then(res => {
 
