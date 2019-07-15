@@ -16,7 +16,7 @@ let method = args[2];
 let userInput = args.slice(3).join(" ");
 // console.log(userInput);
 
-//switch statement to determine which function to fun
+//switch statement to determine which function to run
 // switch (method) {
 //   case "concert-this":
 //     concertThis(userInput);
