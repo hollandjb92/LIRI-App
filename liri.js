@@ -41,7 +41,7 @@ function concertThis(userInput) {
 
   //default artist if no input is provided
   if (!userInput) {
-    userInput = "Mitski"
+    return console.log("Please provided an artist".red);
   }
   //axios call
   axios.get("https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp").then(res => {
